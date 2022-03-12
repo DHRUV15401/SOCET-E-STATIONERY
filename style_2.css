@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+.container{
+    max-width:1200px;
+}
+
+body{
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  
+    background: linear-gradient(to right, #9733EE, #DA22FF); 
+}
+
+.env{
+    color:white;
+    position: absolute;
+    width: 800px;
+    top: 12%;
+    left: 44.5%; 
+}
+
+.name{
+    font-size: 50px;
+    font-family: 'Merienda One', 'cursive';
+    font-weight: bolder;
+    position: absolute;
+    width: 800px;
+    top: 37%;
+    left: 41%; 
+}
+
+.confirm{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 800px;
+    top: 50%;
+    left: 23.5%;
+}
+
+.btn{
+    font-size: 32px;
+    width: 300px;
+    height: 50px;
+    margin-top: 32%;
+    margin-left: 41%;
+    text-decoration: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e65439;
+    text-align: center;
+    font-weight: 700;
+    background-color:#fff;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: #ddd;
+}
+.link{
+    text-decoration: none;
+}
+    
